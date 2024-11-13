@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     scheduler: "K_EULER",
     num_outputs: 1,
     guidance_scale: 0,
-    negative_prompt: 'worst quality, low quality',
+    negative_prompt: 'Low quality, low resolution, blurry, overexposed, underexposed, poorly lit, distorted proportions, unnatural poses, missing details, harsh shadows, poorly rendered hands, extra limbs, incorrect anatomy, bad perspective, unrealistic lighting, unbalanced composition, over-saturation, unnatural colors, overly pixelated, artifacts, overcompressed, cartoonish, grainy, poor texture quality, flat, uninspired, repetitive patterns, chaotic background, irrelevant objects, messy, cluttered scene, too dark, too bright, unrealistic physics, text artifacts, watermarks, unwanted logos, noise, oversharpened, monotone, inconsistent style.',
     num_inference_steps: 4,
   };
 
