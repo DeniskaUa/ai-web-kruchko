@@ -33,7 +33,7 @@ export default function ObjectRemoval() {
       ctx.drawImage(image, 0, 0, newWidth, newHeight);
   
       const scaledImage = canvas.toDataURL('image/jpeg', 1.0); // Максимальна якість JPEG
-  //
+  
       resolve(scaledImage);
     });
   };

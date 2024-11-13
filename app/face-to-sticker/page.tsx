@@ -121,7 +121,7 @@ export default function FaceToSticker() {
               <button
                 type="button"
                 disabled={!uploadedImage || !prompt || loading}
-                onClick={submitData}
+               // onClick={submitData}
                 className={`${
                   !uploadedImage || !prompt || loading
                     ? 'cursor-not-allowed bg-indigo-300 text-gray-300'
